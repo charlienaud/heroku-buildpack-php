@@ -1,5 +1,5 @@
 [buildpack]
-name = "PHP"
+name = "PHPCUSTOM"
 
 	[publish.Ignore]
 	files = [
