@@ -1,5 +1,81 @@
 # heroku-buildpack-php CHANGELOG
 
+## v227 (2022-11-03)
+
+### ADD
+
+- PHP/7.4.33 [David Zuelke]
+- ext-newrelic/10.3.0.315 [David Zuelke]
+- ext-phalcon/5.1.0 [David Zuelke]
+
+### CHG
+
+- Fail if platform packages dir is part of app source [David Zuelke]
+
+## v226 (2022-10-27)
+
+### ADD
+
+- PHP/8.0.25 [David Zuelke]
+- PHP/8.1.12 [David Zuelke]
+- ext-blackfire/1.84.0 [David Zuelke]
+- ext-mongodb/1.14.2 [David Zuelke]
+- ext-phalcon/5.0.5 [David Zuelke]
+
+### CHG
+
+- blackfire/2.13.0 [David Zuelke]
+- Composer/2.4.4 [David Zuelke]
+- Nginx/1.22.1 [David Zuelke]
+
+## v225 (2022-10-05)
+
+### ADD
+
+- PHP/7.4.32 [David Zuelke]
+- PHP/8.0.24 [David Zuelke]
+- PHP/8.1.11 [David Zuelke]
+- ext-blackfire/1.83.0 [David Zuelke]
+- ext-mongodb/1.14.1 [David Zuelke]
+- ext-newrelic/10.2.0.314 [David Zuelke]
+- ext-phalcon/5.0.2 [David Zuelke]
+
+### CHG
+
+- Composer/2.4.2 [David Zuelke]
+- blackfire/2.12.0 [David Zuelke]
+
+## v224 (2022-09-05)
+
+### ADD
+
+- ext-blackfire/1.81.0 [David Zuelke]
+- ext-phalcon/5.0.0RC4 [David Zuelke]
+- PHP/8.0.23 [David Zuelke]
+- PHP/8.1.10 [David Zuelke]
+
+### CHG
+
+- Composer/2.4.1 [David Zuelke]
+- Composer/2.2.18 [David Zuelke]
+- blackfire/2.10.1 [David Zuelke]
+
+## v223 (2022-08-04)
+
+### ADD
+
+- ext-phalcon/5.0.0RC3 [David Zuelke]
+- PHP/8.0.22 [David Zuelke]
+- PHP/8.1.9 [David Zuelke]
+- ext-mongodb/1.14.0 [David Zuelke]
+- ext-blackfire/1.80.0 [David Zuelke]
+
+### CHG
+
+- Composer/2.2.17 [David Zuelke]
+- Composer/2.3.10 [David Zuelke]
+- librdkafka/1.9.2 [David Zuelke]
+
 ## v222 (2022-07-07)
 
 ### ADD

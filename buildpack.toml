@@ -3,7 +3,6 @@ name = "PHPCUSTOM"
 
 	[publish.Ignore]
 	files = [
-		".circleci/",
 		".github/",
 		".gitignore",
 		".rspec_parallel",
