@@ -1,5 +1,62 @@
 # heroku-buildpack-php CHANGELOG
 
+## v231 (2023-02-14)
+
+### ADD
+
+- ext-newrelic/10.6.0.318 [David Zuelke]
+- PHP/8.0.28 [David Zuelke]
+- PHP/8.2.3 [David Zuelke]
+- PHP/8.1.16 [David Zuelke]
+- ext-blackfire/1.86.4 [David Zuelke]
+
+### CHG
+
+- Composer/2.2.20 [David Zuelke]
+- Composer/2.5.3 [David Zuelke]
+
+## v230 (2023-02-07)
+
+### ADD
+
+- PHP/8.1.15 [David Zuelke]
+- PHP/8.2.2 [David Zuelke]
+
+### CHG
+
+- Use non-legacy structure for platform packages Composer repository [David Zuelke]
+- Composer/2.2.19 [David Zuelke]
+- Composer/2.5.2 [David Zuelke]
+
+### FIX
+
+- `autotune.php` throws deprecation warning on PHP 8.2 (#615) [Simo Heinonen]
+
+## v229 (2023-01-25)
+
+### ADD
+
+- PHP/8.2.1 [David Zuelke]
+
+## v228 (2023-01-25)
+
+### ADD
+
+- ext-mongodb/1.15.0 [David Zuelke]
+- PHP/8.0.27 [David Zuelke]
+- PHP/8.1.14 [David Zuelke]
+- ext-phalcon/5.1.4 [David Zuelke]
+- ext-blackfire/1.86.3 [David Zuelke]
+- ext-newrelic/10.5.0.317 [David Zuelke]
+
+### CHG
+
+- Build Nginx with `--with-http_auth_request_module` (#455) [David Zuelke]
+- Build Nginx with `--with-http_stub_status_module` (#598) [David Zuelke]
+- blackfire/2.13.2 [David Zuelke]
+- Composer/2.5.1 [David Zuelke]
+- Apache/2.4.55 [David Zuelke]
+
 ## v227 (2022-11-03)
 
 ### ADD
